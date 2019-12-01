@@ -12,6 +12,9 @@ public class Main {
         TR.begin();
 
         try {
+            M.setName("준석");
+            M.setAge(3);
+            EM.persist(M);
             TR.commit();
         }catch(Exception e){
             TR.rollback();
