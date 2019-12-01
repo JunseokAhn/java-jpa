@@ -7,7 +7,7 @@ public class Member {
 
     @Id @GeneratedValue
     private Long id;
-    @Column(name = "MEMBER_ID")
+    @Column(name = "MEMBER_ID", length = 10)
     private String name;
     private String city;
     private String street;
