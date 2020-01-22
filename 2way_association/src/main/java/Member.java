@@ -1,3 +1,4 @@
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,4 +12,13 @@ public class Member {
     private String name;
     @ManyToOne @JoinColumn(name = "TEAM_ID")
     Team team;
+
+
+    public void setTeam(Team team){
+        this.team = team;
+        team.getMembers().add(this);
+    }
+
 }
+
+
