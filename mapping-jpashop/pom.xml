@@ -33,5 +33,12 @@
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+
+</dependencies>
 </project>
