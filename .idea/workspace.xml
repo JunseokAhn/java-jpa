@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a24928-8b78-4b06-a479-f2a3415e0423" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Member.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Refactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Member.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Refactor">
+    <configuration name="Refactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Refactor" />
+      <module name="jap-basic1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Register" />
       <module name="jap-basic1" />
@@ -51,6 +57,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Refactor" />
         <item itemvalue="Application.Register" />
       </list>
     </recent_temporary>
@@ -77,22 +84,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592783654271" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592799347674">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592806236336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592799347674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592799347674">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592806236336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1592806236336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592799347674" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592799347673">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592806236336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1592806236336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592799347673" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592799347674">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592806236336" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1592806236336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592799347674" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592806236336" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1592783619683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
