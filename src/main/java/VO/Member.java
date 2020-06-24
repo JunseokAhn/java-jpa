@@ -1,7 +1,7 @@
-import javax.persistence.Column;
+package VO;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
 //@Table(name = "user") user라는 테이블에 쿼리가 나가도록 변경

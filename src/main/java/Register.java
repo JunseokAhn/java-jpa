@@ -1,3 +1,5 @@
+import VO.Member;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -14,8 +16,8 @@ public class Register {
             TS.begin();
 
             Member member = new Member();
-            member.setId(1L);
-            member.setName("Junseok2");
+            member.setId(2L);
+            member.setName("Junseok");
             EM.persist(member);
 
             TS.commit();
