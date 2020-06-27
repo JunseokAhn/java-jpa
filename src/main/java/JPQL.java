@@ -10,7 +10,7 @@ public class JPQL {
         EntityManagerFactory EMF = Persistence.createEntityManagerFactory("hello");
         EntityManager EM = EMF.createEntityManager();
         EntityTransaction TS = EM.getTransaction();
-
+        //JPQL쿼리를 실행하면 실행전 자동으로 플러쉬가 날아가고 JPQL로 셀렉트해옴
         try {
             TS.begin();
             //5번index부터 8개를 가져오는 쿼리
@@ -20,7 +20,6 @@ public class JPQL {
                     .setFirstResult(5)
                     .setMaxResults(8)
                     .getResultList();
-
             for(Member i : list)
                 System.out.println(i.getName());
             TS.commit();

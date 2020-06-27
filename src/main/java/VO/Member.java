@@ -13,6 +13,10 @@ public class Member {
 //    @Column(name = "user_name") user_name이라는 컬럼으로 쿼리가 나가도록 변경
     private String name;
 
+    public Member(){}
+    public Member(long l, String june) {
+    }
+
     //자동완성 alt insert
     public long getId() {
         return id;
