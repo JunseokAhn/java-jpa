@@ -1,12 +1,12 @@
-import VO.Member;
 import VO.Member2;
+import VO.RoleType;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class Register {
+public class Register2 {
     public static void main(String[] args) {
 
         EntityManagerFactory EMF = Persistence.createEntityManagerFactory("hello");
@@ -16,9 +16,10 @@ public class Register {
         try {
             TS.begin();
 
-            Member member = new Member();
+            Member2 member = new Member2();
             member.setId(2L);
-            member.setName("Junseok");
+            member.setCreateDate();
+            member.setRoleType(RoleType.USER);
             EM.persist(member);
 
             TS.commit();

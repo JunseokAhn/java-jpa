@@ -15,7 +15,20 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
-            <!--<property name="hibernate.hbm2ddl.auto" value="create" />-->
+            <!--DB자동생성옵션-->
+            <property name="hibernate.hbm2ddl.auto" value="create" />
+
+            <!--DB자동생성후 드랍-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
+
+            <!--테이블컬럼 추가시 alter table TABLE add column COLUMN-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="update" />-->
+
+            <!--엔티티와 테이블이 정상매핑되었는지만 확인-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="validate" />-->
+
+            <!--비활성화 == 주석처리-->
+            <!--<property name="hibernate.hbm2ddl.auto" value="none" />-->
         </properties>
     </persistence-unit>
 </persistence>
