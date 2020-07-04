@@ -18,7 +18,6 @@ public class Register2 {
 
             Member2 member = new Member2();
             member.setId(2L);
-            member.setCreateDate();
             member.setRoleType(RoleType.USER);
             EM.persist(member);
 
