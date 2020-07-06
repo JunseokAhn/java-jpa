@@ -8,8 +8,7 @@ import java.util.Date;
 @Entity
 @Table(name = "member3")
 public class Member3 {
-    //기본키에 GeneratedValue로 멤버제너레이터를 엮어줬다. 이것은 시퀀스제너레이터기떄문에, 테이블생성시,
-    //MY_SEQUENCE 시퀀스를 같이생성해준다.
+    //AUTO, IDENTITY, SEQUENCE, TABLE
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
