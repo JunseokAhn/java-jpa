@@ -3,7 +3,7 @@ package VO;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "member")
+@Table(name = "member4")
 @SequenceGenerator(name= "MEMBER_GENERATOR", sequenceName = "MY_SEQUENCE",
         initialValue = 1, allocationSize = 1)
 public class Member4 {
@@ -37,5 +37,6 @@ public class Member4 {
 
 //MEBER_GENERATOR라는 제너레이터에 기본키를 매핑시키면, MY_SEQUENCE테이블이 자동생성되고,
 //insert를할때마다 MEMBER_SEQ라는 컬럼네임으로 1씩 증가되면서 할당됨.
-//얼로케이션사이즈를 증가시키면 얼로케이션사이즈만큼 찰떄까지 커밋안했다가 한번에 커밋함
+//얼로케이션사이즈를 증가시키면 얼로케이션사이즈만큼 DB에미리 올려놓고
+// 메모리에 얼로케이션사이즈만큼 저장했다가 한번에 커밋함 1이상 설정하려면 최소값50
 
